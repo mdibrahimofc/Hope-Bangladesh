@@ -6,6 +6,6 @@ function textNumber(id){
     return parseFloat(document.getElementById(id).innerText)
 }
 
-function inputValue(id){
-    return document.getElementById(id).value;
+function inputNumber(id){
+    return parseFloat(document.getElementById(id).value);
 }
